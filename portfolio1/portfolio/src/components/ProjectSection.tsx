@@ -7,27 +7,72 @@ import SlideUp from "./SlideUp";
 
 const projects = [
   {
-    name: "Thankful Thoughts",
+    name: "Online BookStore(kitaab)",
     description:
-      "ThankfulThoughts is a web app that generates an appreciative sentence c",
-    image: "/thankfulthoughts.png",
-    github: "https://github.com/hqasmei/thankful-thoughts",
-    link: "https://thankfulthoughts.io/",
+      "Kitaab is a web app (Demo) that is created as online book store where you can buy Your wanted books",
+    image: "/Kitaab Project.png",
+    github:
+      "https://github.com/VirajChauhan07/All-Projects/tree/a25f9e66ca8c461c4e2b1b9dcad9148e7317c99b/BookStore",
+    link: "https://all-projects-kitaab.vercel.app",
   },
   {
-    name: "PlatoI0",
-    description: "PlatoI0 is a to do list app that built using the PERN stack.",
-    image: "/platoio.png",
-    github: "https://github.com/hqasmei/platoio",
-    link: "https://platoio.com/register",
+    name: "Advanced Portfolio",
+    description: "Complete Description About myself and education",
+    image: "/Advanced portfolio.png",
+    github:
+      "https://github.com/VirajChauhan07/WDprojectgroup3/tree/6e45ffb793b3e004aa1bc41221d56a45ccb993c2/portfolio1/portfolio",
+    link: "https://advanced-portfolio-seven.vercel.app",
   },
   {
-    name: "Kator Family Photos",
+    name: "TinDog Website",
     description:
-      "Kator Family Photos is a photos and video digitization service in the L",
-    image: "/familyphotos.png",
-    github: "https://github.com/hqasmei/katorfamilyphotos",
-    link: "https://katorfamilyphotos.com/",
+      "Basic Website for Dog (practise for creating front end website)",
+    image: "/TinDog_Image.png",
+    github:
+      "https://github.com/VirajChauhan07/projectgroup2/tree/dc1917e067282967cf964a2c1fcc20c008235c2b/TinDog%20Completed%20Website",
+    link: "https://tindog-website-omega.vercel.app",
+  },
+  {
+    name: "DrumKit Project",
+    description: "It is a basic javacript project of playing Drum kit.",
+    image: "/drumkit project.png",
+    github:
+      "https://github.com/VirajChauhan07/All-Projects/tree/a25f9e66ca8c461c4e2b1b9dcad9148e7317c99b/DrumKit",
+    link: "https://drumkit-two-vert.vercel.app",
+  },
+  {
+    name: "Dice Challenge",
+    description:
+      "It is a simple two player game at refersh dice roll and winner decides",
+    image: "/Dice project.png",
+    github:
+      "https://github.com/VirajChauhan07/All-Projects/tree/a25f9e66ca8c461c4e2b1b9dcad9148e7317c99b/Dice%20Challenge",
+    link: "https://dice-challenge-seven.vercel.app",
+  },
+  {
+    name: "Button Game",
+    description: "It is a simple game project ",
+    image: "/Button game.png",
+    github:
+      "https://github.com/VirajChauhan07/WDprojectgroup3/tree/6e45ffb793b3e004aa1bc41221d56a45ccb993c2/Project%20game%20of%20press%20button",
+    link: "https://button-game-zeta.vercel.app",
+  },
+  {
+    name: "Learning About Portfolio",
+    description:
+      "creating portfolio for basic understanding and structural point of view ",
+    image: "/Simpleportfolio.png",
+    github:
+      "https://github.com/VirajChauhan07/WDprojectgroup3/tree/6e45ffb793b3e004aa1bc41221d56a45ccb993c2/Simple%20Portfolio",
+    link: "https://learningaboutportfolio.vercel.app",
+  },
+  {
+    name: "Learning CSS",
+    description: "Learning Basics of CSS",
+    image: "/learning css.png",
+    github:
+      "https://github.com/VirajChauhan07/WDprojectgroup4/tree/a587367322628d7a49a02a3114d700fefffd041b/CSS-My%20Site",
+    link: "https://learningcss.vercel.app",
   },
 ];
 
@@ -49,7 +94,7 @@ const projectSection = () => {
                     <Link href={project.link} target="_blank">
                       <Image
                         className="rounded-xl shadow-xl hover:opacity-70"
-                        src="/images/aboutImage.png"
+                        src={project.image}
                         alt=""
                         height={1000}
                         width={1000}
