@@ -41,6 +41,14 @@ const projects = [
     link: 'https://rock-paper-scissor-theta-nine.vercel.app',
   },
   {
+    name: 'Music Player',
+    description: 'Music player for short Refreshments',
+    image: '/Music-Player.png',
+    github:
+      'https://github.com/VirajChauhan07/WebDevelopment/tree/main/JavaScript2/MusicPlayer',
+    link: 'music-player-mauve-xi.vercel.app',
+  },
+  {
     name: 'Advanced Portfolio',
     description: 'Complete Description About myself and education',
     image: '/Advanced portfolio.png',
